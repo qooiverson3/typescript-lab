@@ -1,6 +1,5 @@
-function Hello(city:string) {
-    return city
-}
+import { GetQuotes } from './API/api';
 
-let country = "TAIWAN";
-console.log(Hello(country));
+
+// GetQuotes();
+console.log(GetQuotes());
